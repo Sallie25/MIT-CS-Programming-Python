@@ -19,5 +19,6 @@ def gcdRecur(a, b):
     elif b >= a and b % a == 0:
        return a
     else:
-        return gcdRecur(b, a % b) 
-print(gcdRecur(255, 255))        
+        return gcdRecur(a, b % a) 
+print(gcdRecur(9, 12))        
+
